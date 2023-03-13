@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
   })
 });
 
-router.get('/pastel', function(req, res, next) {
+router.get('/', function(req, res, next) {
   res.send('funcionou')
 });
 
